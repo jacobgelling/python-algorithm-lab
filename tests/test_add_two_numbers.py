@@ -18,9 +18,23 @@ from python_algorithm_lab.add_two_numbers import ListNode
             ListNode(0),
         ),
         (
-            ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9))))))),
+            ListNode(
+                9,
+                ListNode(
+                    9, ListNode(9, ListNode(9, ListNode(9, ListNode(9, ListNode(9)))))
+                ),
+            ),
             ListNode(9, ListNode(9, ListNode(9, ListNode(9)))),
-            ListNode(8, ListNode(9, ListNode(9, ListNode(9, ListNode(0, ListNode(0, ListNode(0, ListNode(1)))))))),
+            ListNode(
+                8,
+                ListNode(
+                    9,
+                    ListNode(
+                        9,
+                        ListNode(9, ListNode(0, ListNode(0, ListNode(0, ListNode(1))))),
+                    ),
+                ),
+            ),
         ),
     ],
 )
