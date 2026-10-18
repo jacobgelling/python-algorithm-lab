@@ -1,7 +1,7 @@
 """https://leetcode.com/problems/median-of-two-sorted-arrays/"""
 
 
-def find_median_sorted_arrays_easy(nums1: list[int], nums2: list[int]) -> float:
+def find_median_sorted_arrays_brute_force(nums1: list[int], nums2: list[int]) -> float:
     """Time: O(nlogn), Space: O(n)"""
     combined = sorted(nums1 + nums2)
 

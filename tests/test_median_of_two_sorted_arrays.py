@@ -3,7 +3,7 @@ from collections.abc import Callable
 import pytest
 
 from python_algorithm_lab.median_of_two_sorted_arrays import (
-    find_median_sorted_arrays_easy,
+    find_median_sorted_arrays_brute_force,
 )
 from python_algorithm_lab.median_of_two_sorted_arrays import (
     find_median_sorted_arrays_merge_sort,
@@ -13,7 +13,7 @@ from python_algorithm_lab.median_of_two_sorted_arrays import (
 @pytest.mark.parametrize(
     "solution",
     [
-        find_median_sorted_arrays_easy,
+        find_median_sorted_arrays_brute_force,
         find_median_sorted_arrays_merge_sort,
     ],
 )
